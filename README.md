@@ -1,6 +1,9 @@
-# justatestscript
+# Information
 
-"script.md" is the main part
+"script" is the main part. 
+Wanna use in an exploit (idk why?)
+
+Paste this into the executor: loadstring(game:HttpGet("https://raw.githubusercontent.com/interfaceinvestor/justatestscript/main/script"))();
 
 Welcome to my test file!
 
