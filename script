@@ -1,0 +1,44 @@
+-- Variables
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Pattern = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+
+-- This was created by @InterfaceInvestor, helloitsmenotfamous#1405 on discord. For personal/testing use. v1.4 UI
+
+ScreenGui.Parent = game.Workspace
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Frame.Position = UDim2.new(0.0170835871, 0, 0.036809817, 0)
+Frame.Size = UDim2.new(0, 656, 0, 294)
+
+UICorner.Parent = Frame
+
+Pattern.Name = "Pattern"
+Pattern.Parent = Frame
+Pattern.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Pattern.BackgroundTransparency = 1.000
+Pattern.Size = UDim2.new(0, 656, 0, 294)
+Pattern.ZIndex = 9
+Pattern.Image = "rbxassetid://121480522"
+Pattern.ImageTransparency = 0.600
+Pattern.ScaleType = Enum.ScaleType.Tile
+Pattern.SliceCenter = Rect.new(0, 256, 0, 256)
+Pattern.TileSize = UDim2.new(0, 45, 0, 45)
+
+UICorner_2.Parent = Pattern
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 656, 0, 103)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
